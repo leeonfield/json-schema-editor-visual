@@ -1,11 +1,15 @@
+> Fork feature:
+> - support import template data
+
+
 # json-schema-editor-visual
 A json-schema editor of high efficient and easy-to-use, base on React.
 
 ![avatar](json-schema-editor-visual.jpg)
 
 ## Usage
-```
-npm install json-schema-editor-visual
+```shell
+npm install @leeonfield/json-schema-editor-visual
 ```
 
 ```js
@@ -23,14 +27,14 @@ render(
 
 ## Option Object
 
-| name | desc | default |
-| ---- | ----------- | --------- |
-| `lg` | language, support `en_US` or `zh_CN` | en_US 
+| name | desc                                 | default |
+| ---- | ------------------------------------ | ------- |
+| `lg` | language, support `en_US` or `zh_CN` | en_US   |
 
 ## SchemaEditor Props
 
-| name | type | default | desc
-| ---- | ----------- | --------- | --------- |
-| `data` | string | null | the data of editor
-| `onChange`| function | null | 
-| `showEditor` | boolean | false | 
+| name         | type     | default | desc               |
+| ------------ | -------- | ------- | ------------------ |
+| `data`       | string   | null    | the data of editor |
+| `onChange`   | function | null    |
+| `showEditor` | boolean  | false   |
